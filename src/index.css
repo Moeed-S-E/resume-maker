@@ -1,0 +1,10 @@
+@import "tailwindcss";
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.input {
+  @apply border border-gray-300 rounded-lg p-2 w-full 
+  focus:outline-none focus:ring-2 focus:ring-blue-400 transition;
+}

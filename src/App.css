@@ -1,0 +1,11 @@
+.zero-to-hero {
+  animation: ZeRoToHero alternate 5s ease infinite;
+}
+@keyframes ZeRoToHero {
+  from {
+    width: calc(var(--spacing) * 50);
+  }
+  to {
+    width: calc(var(--spacing) * 0);
+  }
+}
