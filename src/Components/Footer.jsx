@@ -7,7 +7,7 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="flex flex-col gap-3 min-h-20 max-h-24 items-center justify-center shadow shadow-black">
+    <footer className="print:hidden flex flex-col gap-3 min-h-20 max-h-24 items-center justify-center shadow shadow-black">
       <div className="icons flex gap-4">
         <a
           href="https://www.github.com/Moeed-S-E"
