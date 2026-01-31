@@ -11,7 +11,7 @@ export default function App() {
           className="overflow-hidden relative bg-clip-text bg-linear-30 from-indigo-500 via-blue-800 to-indigo-900 text-transparent"
           style={{ WebkitBackgroundClip: "text" }}
         >
-          Resume Maker
+          Resume Builder
           <i className="absolute w-50 h-0.5 left-2 bottom-0 bg-indigo-500 zero-to-hero"></i>
         </span>
       </h1>
