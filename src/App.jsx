@@ -7,13 +7,14 @@ export default function App() {
   return (
     <>
       <h1 className="bg-white/80 backdrop-blur-md w-full p-6 shadow-md text-3xl font-extrabold text-center print:hidden">
-        <span
+        <a
+          href="/"
           className="overflow-hidden relative bg-clip-text bg-linear-30 from-indigo-500 via-blue-800 to-indigo-900 text-transparent"
           style={{ WebkitBackgroundClip: "text" }}
         >
           Resume Builder
           <i className="absolute w-50 h-0.5 left-2 bottom-0 bg-indigo-500 zero-to-hero"></i>
-        </span>
+        </a>
       </h1>
 
       <Routes>
