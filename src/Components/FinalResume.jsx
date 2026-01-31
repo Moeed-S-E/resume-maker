@@ -1,7 +1,11 @@
 const FinalResume = () => {
   const data = JSON.parse(localStorage.getItem("resumeData"));
   const handlePrint = () => {
-    const printWindow = window.open("", "_blank");
+    const printWindow = window.open(
+      `${window.location.origin}/resume`,
+      "_blank",
+    );
+
     printWindow.document.write(document.documentElement.outerHTML);
     printWindow.print();
     printWindow.close();
@@ -9,7 +13,6 @@ const FinalResume = () => {
   return (
     <div className="max-w-3xl mx-auto p-10 font-serif relative print:bg-white print:p-0 print:shadow-none print:mx-0">
       <button
-        // onClick={() => window.print()}
         onClick={handlePrint}
         className="absolute right-1 mb-6 border bg-indigo-600 text-white rounded-2xl px-4 py-2 print:hidden"
       >
